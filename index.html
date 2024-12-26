@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: "Outfit", serif;
+      
+    
+    }
+    main{
+      background-color: hsl(0, 0%, 100%);
+      width: 20%;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img{
+      width: 100%;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    h3{
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    p{
+      text-align: center;
+      color: hsl(216, 15%, 48%);
+    }
+
+    .attribution { 
+      font-size: 11px;
+      padding: 1rem;
+      position: absolute; 
+      bottom: 0;
+      margin-right: 1rem;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width: 1175px){
+      main{
+        width: 25%;
+      }
+    }
+
+    @media (max-width: 1000px){
+      main{
+        width: 30%;
+      }
+    }
+
+    @media (max-width: 815px){
+      main{
+        width: 35%;
+      }
+    }
+
+    @media (max-width: 700px){
+      main{
+        width: 40%;
+      }
+    }
+
+    @media (max-width: 590px){
+      main{
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 450px){
+      main{
+        width: 65%;
+      }
+    }
+
+    @media (max-width: 400px){
+      main{
+        width: 75%;
+      }
+    }
+
+    @media (max-width: 375px){
+      main{
+        width: 85%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./images/image-qr-code.png" alt="qr-code-image">
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <br />
+    Coded by <a href="#">Vikrant Patil</a>.
+  </div>
+</body>
+</html>
